@@ -8,13 +8,13 @@
  "field_order": [
   "posting_date",
   "debit_amount",
-  "voucher_type",
+  "credit_amount",
   "party",
   "remark",
   "is_cancelled",
   "column_break_4",
   "account",
-  "credit_amount",
+  "voucher_type",
   "voucher_number",
   "payment_due_date",
   "amended_from",
@@ -104,16 +104,14 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2021-05-17 14:05:05.071621",
+ "modified": "2021-05-21 12:44:11.500371",
  "modified_by": "Administrator",
  "module": "Accounting App",
  "name": "GL Entry",
  "owner": "Administrator",
  "permissions": [
   {
-   "create": 1,
    "delete": 1,
    "email": 1,
    "export": 1,
@@ -121,8 +119,7 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
-   "share": 1,
-   "write": 1
+   "share": 1
   }
  ],
  "sort_field": "modified",
